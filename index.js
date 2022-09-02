@@ -15,7 +15,7 @@ import { UserController, PostController } from './controllers/index.js';
 
 mongoose
     .connect(
-        'mongodb+srv://Hillel:Sdi7Ojw0@cluster0.wzdbyxy.mongodb.net/blog?retryWrites=true&w=majority'
+        'mongodb+srv://@cluster0.wzdbyxy.mongodb.net/blog?retryWrites=true&w=majority'
     )
     .then(() => {
         console.log('DB ok');
